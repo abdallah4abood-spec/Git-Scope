@@ -1,21 +1,23 @@
 <div align="center">
 
-# 🚀 GitScope | Advanced GitHub Profile Explorer
+# 🚀 Git-Scope — Advanced GitHub Profile Explorer
 
-  <p><strong>أداة ويب احترافية وعصرية لاستكشاف وتحليل ملفات مستخدمي GitHub بتصميم مذهل وميزات تفاعلية متقدمة.</strong></p>
+  <p><strong>أداة ويب احترافية وعصرية لاستكشاف وتحليل ملفات مستخدمي GitHub بتصميم Cyber Neon وميزات تصدير متقدمة.</strong></p>
 
   <p>
-    <a href="https://perfect-bun.surge.sh/" target="_blank">🌐 Live Demo</a> •
+    <a href="https://abdallah4abood-spec.github.io/Git-Scope/" target="_blank">🌐 Live Demo</a> •
     <a href="#-features">✨ Features</a> •
     <a href="#-tech-stack">🛠️ Tech Stack</a> •
-    <a href="#-installation--setup">⚙️ Setup</a>
+    <a href="#-installation--setup">⚙️ Setup</a> •
+    <a href="#-author">👤 Author</a>
   </p>
 
   <!-- Badges -->
   <p>
-    <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status">
-    <img src="https://img.shields.io/badge/tailwindcss-v3.x-blue?logo=tailwind-css" alt="Tailwind CSS">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+    <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" alt="Status">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-v3.x-38BDF8?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS">
+    <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License">
   </p>
 
 </div>
@@ -24,49 +26,40 @@
 
 ## 🎯 Overview
 
-تأسست أداة **GitScope** كحل عصري واحترافي مستوحى من تحديات Frontend Mentor وتم تطويرها لتتجاوز الحدود التقليدية عبر دمج واجهة مستخدم متطورة (UI/UX) بنمط *Cyber Neon / Obsidian Violet* مع دعم كامل للوضع الداكن والفاتح (Dark/Light Mode). تتيح الأداة للمطورين والباحثين استعراض إحصائيات حسابات GitHub بدقة، ومتابعة المستودعات، وتصدير بطاقات الهوية الرقمية للملفات الشخصية مباشرة.
+تُعد أداة **Git-Scope** منصة ويب تفاعلية صُممت لتزويد المطورين والباحثين بتجربة استكشاف سلسة وشاملة لبيانات مستخدمي GitHub عبر استهلاك **GitHub REST API**. تم بناء التطبيق بهندسة واجهات حديثة تعتمد على النمط البصري *Cyber Neon / Obsidian Violet*، مع دعم ديناميكي كامل للتحويل بين الوضعين الداكن والفاتح (Dark/Light Mode).
+
+تتيح الأداة استعراض الإحصائيات الدقيقة، أعلى اللغات البرمجية المستعملة في المستودعات العامة، مع إمكانية تصدير بطاقة الملف الشخصي كصورة عالية الدقة **PNG** أو ملف **PDF** دون ظهور أي عناصر تحكم جانبية.
 
 ---
 
 ## ✨ Features
 
-- **🔍 بحث ذكي وفوري:** استعلام دقيق عن أي حساب مستخدم على GitHub عبر الـ REST API.
-- **🎨 واجهة تفاعلية بتصميم Cyber Neon:** تصميم جذاب مع دعم سلس ومخصص للوضع الداكن (Dark Mode) والفاتح (Light Mode).
-- **💾 نظام التخزين المؤقت (Caching):** حفظ مؤقت لنتائج البحث في `localStorage` لتفادي الوصول للحد الأقصى لطلبات GitHub (Rate Limits) وتسريع الاستجابة.
-- **📤 تصدير البطاقة (Export Card):** إمكانية تحميل بطاقة الملف الشخصي مباشرة كصورة عالية الدقة **PNG** أو مستند **PDF** جاهز للمشاركة.
-- **📱 تصميم متجاوب (Responsive):** مواءمة كاملة لكافة الشاشات (الهواتف الذكية، الأجهزة اللوحية، وشاشات سطح المكتب).
-- **⚡ تأثيرات بصرية (Micro-interactions):** تأثيرات تفاعلية أنيقة وتنبيهات فورية (Toasts) وحالات تحميل افتراضية (Skeleton Loaders).
+- **🔍 بحث ذكي مع معالجة الأخطاء:** استعلام فوري ومباشر عن أي حساب مستخدم على GitHub مع تحقق تلقائي للحد من الطلبات الفارغة وإظهار تنبيهات مخصصة عند حدوث أخطاء مثل `404 Not Found` أو تجاوز حد الطلبات `403 Rate Limit`.
+- **🎨 واجهة Cyber Neon ديناميكية:** تصميم عصري وجذاب يدعم التنقل السلس بين الوضعين الداكن والفاتح (Dark/Light Mode) مع الحفاظ على التباين البصري وسهولة القراءة.
+- **⚡ نظام التخزين المؤقت (Caching System):** حفظ مؤقت لبيانات الحسابات المستعلم عنها في الـ `localStorage` لتسريع سرعة الاستجابة وتفادي استهلاك الحد الأقصى لطلبات GitHub API.
+- **📤 تصدير نقي وعالي الدقة (Clean Card Export):** تصدير بطاقة البروفايل مباشرة بصيغة **PNG** أو **PDF** بآلية معالجة ذكية تُخفي أزرار التحكم تلقائياً وتمنع تشويه العناصر أو اقتطاع الحواف أثناء الالتقاط.
+- **📱 تصميم متجاوب بالكامل (Fully Responsive):** تجربة استخدام متكاملة ومصممة بدقة لتناسب مختلف الشاشات (الهواتف الذكية، الأجهزة اللوحية، وشاشات سطح المكتب).
+- **💫 تفاعلات بصرية و 3D Effects:** تأثيرات حركية أنيقة، تأثير الميلان الثلاثي الأبعاد (3D Tilt Effect)، إشعارات فورية (Toasts)، وحالات تحميل افتراضية (Skeleton Loaders).
 
 ---
 
 ## 🛠️ Tech Stack
 
-تم بناء وتطوير المشروع باستخدام أحدث تقنيات الويب الحديثة دون تعقيدات أطر العمل الثقيلة:
+تم تطوير التطبيق باستخدام تقنيات الويب الأساسية لضمان أقصى درجات السرعة والأداء العالي دون الحاجة إلى أطر عمل ثقيلة:
 
-- **HTML5 & Semantic Markup:** لهيكلة سليمة ومتوافقة مع محركات البحث ومعايير إمكانية الوصول.
-- **Tailwind CSS:** لتنسيق الأنماط الديناميكية وتطبيق ثيمات الألوان والتصميم المتجاوب بكفاءة عالية.
-- **Vanilla JavaScript (ES6+):** لإدارة حالة التطبيق، التفاعل مع الأحداث، وت,جيه طلبات الـ API ومعالجة DOM.
-- **External Libraries:**
-  - `html2canvas`: لالتقاط وتصدير بطاقات المستخدمين كصور بدقة عالية.
-  - `jsPDF`: لتوليد وتصدير ملفات الـ PDF بشكل منسق.
-
----
-
-## 📸 Screenshots & Preview
-
-<div align="center">
-  <p><em>لقطات شاشة توضح واجهة الأداة في مختلف الحالات والوضع الداكن:</em></p>
-  <!-- يمكنك إضافة روابط الصور الخاصة بك هنا -->
-  <img src="https://github.com/user-attachments/assets/433ae913-bb33-4d8b-ac62-28405a8be058" width="48%" alt="Desktop Light Mode">
-  <img src="https://github.com/user-attachments/assets/6ec0b9aa-714a-4973-a1c5-e8cf2bc680e4" width="48%" alt="Desktop Dark Mode">
-</div>
+- **HTML5:** بناء هيكلي سليم معتمد على معايير الوصول (Semantic Markup).
+- **Tailwind CSS:** لتنسيق الواجهات، إدارة الثيمات، والتصميم المتجاوب بكفاءة عالية.
+- **Vanilla JavaScript (ES6+):** معالجة المنطق البرمجي، إدارة الـ DOM، والتفاعل مع الـ API بنظام Async/Await.
+- **Libraries & Utilities:**
+  - `html2canvas`: لالتقاط بطاقة المستخدم وتحويل عناصر الـ DOM إلى صور بدقة عالية.
+  - `jsPDF`: لتوليد وتحويل الكانفاس إلى مستندات PDF بدقة متناسبة.
 
 ---
 
 ## ⚙️ Installation & Setup
 
-إذا أردت تشغيل المشروع محلياً على جهازك، اتبع الخطوات البسيطة التالية:
+لتشغيل المشروع محلياً على جهازك، اتبع الخطوات التالية:
 
 1. **استنساخ المستودع (Clone Repository):**
    ```bash
-   git clone [https://github.com/sayaliakbar/gitscope.git](https://github.com/sayaliakbar/gitscope.git)
+   git clone [https://github.com/abdallah4abood-spec/Git-Scope.git](https://github.com/abdallah4abood-spec/Git-Scope.git)
