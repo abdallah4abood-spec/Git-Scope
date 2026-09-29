@@ -7,6 +7,7 @@
   <p>
     <a href="https://abdallah4abood-spec.github.io/Git-Scope/" target="_blank">🌐 Live Demo</a> •
     <a href="#-features">✨ Features</a> •
+    <a href="#-screenshots">📸 Screenshots</a> •
     <a href="#-tech-stack">🛠️ Tech Stack</a> •
     <a href="#-installation--setup">⚙️ Setup</a> •
     <a href="#-author">👤 Author</a>
@@ -40,6 +41,32 @@
 - **📤 تصدير نقي وعالي الدقة (Clean Card Export):** تصدير بطاقة البروفايل مباشرة بصيغة **PNG** أو **PDF** بآلية معالجة ذكية تُخفي أزرار التحكم تلقائياً وتمنع تشويه العناصر أو اقتطاع الحواف أثناء الالتقاط.
 - **📱 تصميم متجاوب بالكامل (Fully Responsive):** تجربة استخدام متكاملة ومصممة بدقة لتناسب مختلف الشاشات (الهواتف الذكية، الأجهزة اللوحية، وشاشات سطح المكتب).
 - **💫 تفاعلات بصرية و 3D Effects:** تأثيرات حركية أنيقة، تأثير الميلان الثلاثي الأبعاد (3D Tilt Effect)، إشعارات فورية (Toasts)، وحالات تحميل افتراضية (Skeleton Loaders).
+
+---
+
+## 📸 Screenshots & Previews
+
+<div align="center">
+
+### 🖥️ Desktop Views
+<p>
+  <img src="dist/design/Git-Scope-desktop-darkMode.jpg" width="48%" alt="Desktop Dark Mode">
+  <img src="dist/design/Git-Scope-desktop.jpg" width="48%" alt="Desktop Light Mode">
+</p>
+
+### ⚡ Active States & Interactive UI
+<img src="dist/design/Git-Scope-desktop-activeStates.jpg" width="97%" alt="Active States UI">
+
+### 📱 Tablet & Mobile Responsive
+<p>
+  <img src="dist/design/Git-Scope-tablet.jpg" width="48%" alt="Tablet View">
+  <img src="dist/design/Git-Scope-mobile.jpg" width="48%" alt="Mobile View">
+</p>
+
+### 💳 Exported Profile Card Sample (PNG)
+<img src="dist/design/GitScope-Card-abdallah4abood-spec.png" width="60%" alt="Exported Card Sample">
+
+</div>
 
 ---
 
