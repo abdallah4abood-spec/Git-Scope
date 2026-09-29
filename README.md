@@ -50,8 +50,9 @@
 
 ### 🖥️ Desktop Views
 <p>
+    <img src="dist/design/Git-Scope-desktop.jpg" width="48%" alt="Desktop Light Mode">
+
   <img src="dist/design/Git-Scope-desktop-darkMode.jpg" width="48%" alt="Desktop Dark Mode">
-  <img src="dist/design/Git-Scope-desktop.jpg" width="48%" alt="Desktop Light Mode">
 </p>
 
 ### ⚡ Active States & Interactive UI
@@ -59,8 +60,8 @@
 
 ### 📱 Tablet & Mobile Responsive
 <p>
-  <img src="dist/design/Git-Scope-tablet.jpg" width="48%" alt="Tablet View">
   <img src="dist/design/Git-Scope-mobile.jpg" width="48%" alt="Mobile View">
+  <img src="dist/design/Git-Scope-tablet.jpg" width="48%" alt="Tablet View">
 </p>
 
 ### 💳 Exported Profile Card Sample (PNG)
