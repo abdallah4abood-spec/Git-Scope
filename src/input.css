@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 30, 30, 47;
+  --cardbackground: 36, 36, 56;
+  --softwhite: 237, 237, 237;
+}
+
+* {
+  @apply transition-colors duration-200;
+}
